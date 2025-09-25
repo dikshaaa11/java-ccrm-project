@@ -6,7 +6,7 @@ The Campus Course & Records Manager (CCRM) is a console-based Java application d
 
 **Key Features:**
 - Student Management (Add, List, Update)
-- Course Management (Add, List, Update)
+- Course Management (Add,  List, Update)
 - Student Enrollment and Grading
 - Data Persistence via CSV file import/export
 - Timestamped Data Backups
@@ -47,7 +47,7 @@ The Campus Course & Records Manager (CCRM) is a console-based Java application d
 
 ### [cite_start]Evolution of Java (Briefly) [cite: 132]
 - **1995:** Java 1.0 released by Sun Microsystems.
-- **2004:** Java 5 (J2SE 5.0) released, introducing major features like generics, enums, and annotations.
+- **2004:** Java 5 (J2SE 5.0) released, introducing major features like generics, enums, and  annotations.
 - **2014:** Java 8 released, a landmark version with Lambdas, Streams API, and a new Date/Time API.
 - **2018:** Java 11 released as a Long-Term Support (LTS) version.
 - **Present:** Java continues with a faster release cycle (every 6 months), with recent LTS versions being 17 and 21.
@@ -56,9 +56,9 @@ The Campus Course & Records Manager (CCRM) is a console-based Java application d
 
 | Feature | Java ME (Micro Edition) | Java SE (Standard Edition) | Java EE (Enterprise Edition) |
 | :--- | :--- | :--- | :--- |
-| **Target** | Mobile, embedded devices | Desktop, servers | Large-scale, distributed enterprise applications |
+| **Target** | Mobile, embedded  devices | Desktop, servers | Large-scale, distributed enterprise applications |
 | **Core API** | Subset of SE API | Core Java language, JVM, core libraries | Superset of SE API |
-| **Includes** | CLDC, MIDP | JDK, JRE, JVM | Servlets, JSPs, EJB, Web Services |
+| **Includes** | CLDC, MIDP | JDK, JRE, JVM | Servlets, JSPs, EJB, Web Services|
 
 ### [cite_start]JDK vs JRE vs JVM [cite: 134]
 - **JVM (Java Virtual Machine):** An abstract machine that provides the runtime environment in which Java bytecode can be executed. It's the component that makes Java "platform-independent".
@@ -73,11 +73,11 @@ The Campus Course & Records Manager (CCRM) is a console-based Java application d
 2.  **Install JDK:** Run the installer and follow the on-screen instructions.
 3.  **Configure Environment Variables:**
     -   Set `JAVA_HOME` to your JDK installation directory (e.g., `C:\Program Files\Java\jdk-17`).
-    -   Add the JDK's `bin` folder to the system `Path` variable (e.g., `%JAVA_HOME%\bin`).
+    -   Add the  JDK's `bin` folder to the system `Path` variable (e.g., `%JAVA_HOME%\bin`).
 4.  **Verify Installation:** Open a new Command Prompt and run `java -version` and `javac -version`.
 
 ****
 
 ## 6. Notes
 
-- [cite_start]**Enabling Assertions:** To run the program with assertions enabled, use the `-ea` flag: `java -ea edu.ccrm.Main`[cite: 137].
+- [cite_start]**Enabling Assertions:** To run the program with assertions enabled,  use the `-ea` flag: `java -ea edu.ccrm.Main`[cite: 137].
